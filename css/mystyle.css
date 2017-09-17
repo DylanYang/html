@@ -1,9 +1,9 @@
-* {
+/** {
     box-sizing: border-box;
     padding: 2px;
     -webkit-flex: 1 100%;
     flex: 1 100%;
-}
+}*/
 .header {
     padding: 20px;
     text-align: center;
@@ -11,7 +11,10 @@
     background-image: url("../images/header002.jpg");
 }
 
-body {margin:0;}
+body {
+  margin:0;
+  background-color: #e6fff5;
+}
 
 .topnav {
   overflow: hidden;
@@ -46,13 +49,14 @@ body {margin:0;}
 
 .column {
     margin-top: 0;
-    margin: 0;
-    padding: 2em;
+    margin: 1px;
+    padding: 1em;
+    font-size: 20px;
 }
 
 .left {
   float: left;
-  border: 1px;
+  border: 0px;
 }
 
 .left img{
@@ -61,7 +65,26 @@ body {margin:0;}
 
 .right {
   margin: 0;
-  height: 350px;
+  height: 300px;
+  font-weight: bold;
+}
+
+.current_proj {
+  margin-top: 0;
+  margin: 1px;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ul {
+  font-style: italic;
+  margin-left:60px;
+}
+
+ul.rli {
+  list-style-type: square;
+
 }
 
 .footer {
