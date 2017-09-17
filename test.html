@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>&lt;!DOCTYPE html&gt;<br>
+  &lt;html&gt;<br>
+  &lt;head&gt;<br>
+  &lt;style&gt; <br>
+  .flex-container {<br>
+  display: -webkit-flex;<br>
+  display: flex; <br>
+  -webkit-flex-flow: row wrap;<br>
+  flex-flow: row wrap;<br>
+  text-align: center;<br>
+  }</p>
+<p>.flex-container &gt; * {<br>
+  padding: 15px;<br>
+  -webkit-flex: 1 100%;<br>
+  flex: 1 100%;<br>
+  }</p>
+<p>.article {<br>
+  text-align: left;<br>
+  }</p>
+<p>header {background: black;color:white;}<br>
+  footer {background: #aaa;color:white;}<br>
+  .nav {background:#eee;}</p>
+<p>.nav ul {<br>
+  list-style-type: none;<br>
+  padding: 0;<br>
+  }<br>
+  .nav ul a {<br>
+  text-decoration: none;<br>
+  }</p>
+<p>@media all and (min-width: 768px) {<br>
+  .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}<br>
+  .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}<br>
+  footer {-webkit-order:3;order:3;}<br>
+  }<br>
+  &lt;/style&gt;<br>
+  &lt;/head&gt;<br>
+  &lt;body&gt;</p>
+<p>&lt;div class=&quot;flex-container&quot;&gt;<br>
+  &lt;header&gt;<br>
+  &lt;h1&gt;City Gallery&lt;/h1&gt;<br>
+  &lt;/header&gt;</p>
+<p>&lt;nav class=&quot;nav&quot;&gt;<br>
+  &lt;ul&gt;<br>
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;London&lt;/a&gt;&lt;/li&gt;<br>
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Paris&lt;/a&gt;&lt;/li&gt;<br>
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Tokyo&lt;/a&gt;&lt;/li&gt;<br>
+  &lt;/ul&gt;<br>
+  &lt;/nav&gt;</p>
+<p>&lt;article class=&quot;article&quot;&gt;<br>
+  &lt;h1&gt;London&lt;/h1&gt;<br>
+  &lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom,<br>
+  with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;<br>
+  &lt;p&gt;Standing on the River Thames, London has been a major settlement for two millennia,<br>
+  its history going back to its founding by the Romans, who named it Londinium.&lt;/p&gt;<br>
+  &lt;p&gt;&lt;strong&gt;Resize this page to see that what happens!&lt;/strong&gt;&lt;/p&gt;<br>
+  &lt;/article&gt;</p>
+<p>&lt;footer&gt;Copyright &amp;copy; W3Schools.com&lt;/footer&gt;<br>
+  &lt;/div&gt;</p>
+<p>&lt;/body&gt;<br>
+  &lt;/html&gt;</p>
+</body>
+</html>
