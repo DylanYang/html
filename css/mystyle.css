@@ -24,7 +24,7 @@ header {
     background-image: url("../images/header002.jpg");
 }
 
-footer {background: #aaa;color:white;text-align: center;padding: 20px;}
+footer {background: #aaa;color:white;text-align: center;padding: 20px;vertical-align:middle;}
 
 body {
   margin:0;
