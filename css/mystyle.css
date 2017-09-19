@@ -131,6 +131,40 @@ ul.proj_li {
     background-color: #e6e6e6;
 } 
 
+.pub_li a {
+   text-decoration:none;
+  color:#006600;
+}
+
+.pub_li a:visited {
+    background-color: #e0ebeb;
+}
+
+.pub_li a:hover {
+    background-color: #b3d9ff;
+}
+
+.pub_li a:active {
+    background-color: #e6e6e6;
+} 
+
+.Certificate_li a {
+   text-decoration:none;
+   color:#006600;
+}
+
+.Certificate_li a:visited {
+    background-color: #e0ebeb;
+}
+
+.Certificate_li a:hover {
+    background-color: #b3d9ff;
+}
+
+.Certificate_li a:active {
+    background-color: #e6e6e6;
+} 
+
 @media all and (min-width: 768px) {
     .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
     .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
