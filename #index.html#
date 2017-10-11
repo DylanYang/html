@@ -63,14 +63,14 @@
 						<img src="images/linkedIn.png" align="right" border="0" margin="0px" padding="0px">
 					</a>
 					<a href="https://github.com/DylanYang">
-						<img src="images/github005.png" align="right" border="0" margin="0px" padding="0px" title="github">
+						<img src="images/github005.png" align="right" borde"0" margin="0px" padding="0px" title="github">
 					</a>	
 				</td>
 			</tr>
 		</table>
 	</div>
 </div>
-<footer>Copyright &copy; iheadlab.com, 2017 </footer>
+<footer>Copyright &copy; iheadlab.com, 2017</footer>
 <script src="js/myscripts.js"></script>
 </div>
 </body>
