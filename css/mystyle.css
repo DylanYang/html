@@ -170,3 +170,8 @@ ul.proj_li {
     .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
     footer {-webkit-order:3;order:3;}
 }
+
+.fonts{
+  font-weight: bold;
+  font-style: italic;
+}
